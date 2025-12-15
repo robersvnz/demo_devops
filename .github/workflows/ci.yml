@@ -36,4 +36,4 @@ jobs:
         run: docker build -t ${{ secrets.DOCKER_USER }}/spring_devops:latest .
 
       - name: Push Docker Image
-        run: docker push ${{ secrets.DOCKER_PASSWORD }}/spring_devops:latest
+        run: docker push ${{ secrets.DOCKER_USER }}/spring_devops:latest
