@@ -1,5 +1,5 @@
 # Usar una imagen base más liviana
-FROM openjdk:17-jdk-slim
+FROM openjdk:17.0.1-jdk-slim
 
 # Establecer el directorio de trabajo
 WORKDIR /app
